@@ -36,8 +36,14 @@ function renderBiolink(data) {
     a.rel = 'noopener noreferrer';
     a.className = 'bio-link';
     a.style.animationDelay = `${0.15 + i * 0.1}s`;
+
+    // Use image icon if icon starts with "assets/", otherwise treat as emoji
+    const iconHtml = link.icon.startsWith('assets/')
+      ? `<img src="${link.icon}" alt="${link.label}" class="link-icon-img" />`
+      : `<span class="link-icon">${link.icon}</span>`;
+
     a.innerHTML = `
-      <span class="link-icon">${link.icon || ''}</span>
+      ${iconHtml}
       <span class="link-label">${link.label}</span>
       <span class="link-arrow">→</span>
     `;
