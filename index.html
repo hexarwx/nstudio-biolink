@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSTudio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="bio-card">
+    <div class="bio-logo" id="bio-logo">
+      <span>NS</span>
+    </div>
+    <h1 class="bio-name" id="bio-name">NSTudio</h1>
+    <p class="bio-tagline" id="bio-tagline"></p>
+    <div class="bio-links" id="bio-links"></div>
+    <footer class="bio-footer">NSTudio Copyright</footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="renderer.js"></script>
+  <script>
+    // Render main biolink
+    renderBiolink(NSTUDIO_CONFIG.main);
+  </script>
+
+</body>
+</html>
