@@ -90,10 +90,10 @@ const NSTUDIO_CONFIG = {
       name: "Dejavu",
       tagline: "Roblox Map by NSTudio",
       links: [
-        { label: "Community", url: "https://example.com",         icon: "assets/icon-roblox.png"  },
-        { label: "Discord",   url: "https://discord.gg/example",  icon: "assets/icon-discord.png" },
-        { label: "TikTok",    url: "https://tiktok.com/@example", icon: "assets/icon-tiktok.png"  },
-        { label: "Saweria",   url: "https://saweria.co/example",  icon: "assets/icon-saweria.png" },
+        { label: "Community", url: "https://www.roblox.com/communities/300589444/DEJAVU#!/about",         icon: "assets/icon-roblox.png"  },
+        { label: "Discord",   url: "https://discord.gg/CVpWSy9xgF",  icon: "assets/icon-discord.png" },
+        { label: "TikTok",    url: "https://www.tiktok.com/@dejavu_club", icon: "assets/icon-tiktok.png"  },
+        { label: "Saweria",   url: "https://saweria.co/Dejavu123",  icon: "assets/icon-saweria.png" },
       ],
       theme: {
         bg_from:    "#0d0015",
